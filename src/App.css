@@ -1,0 +1,81 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+#logo {
+  height: 200px;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+#tagline_1 {
+  color: #E6C200;
+  font-family: "Merienda";
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+#tagline_2 {
+  color: gray;
+  font-family: "Raleway";
+  font-size: 30px;
+}
+
+.menu-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  padding: 0;
+}
+
+.item-title {
+  font-size: 18px;
+  font-family: "Lato";
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.item-description {
+  font-size: 15px;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.menu-item {
+  max-width: 400px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.item-price {
+  text-align: left;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.item-button {
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  padding: 0;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.item-button:hover {
+  background-color: darkgray;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.spacer-small {
+  height: 18px;
+}
+
+.spacer-medium {
+  height: 36px;
+}
